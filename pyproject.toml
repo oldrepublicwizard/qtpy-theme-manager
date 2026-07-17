@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qtpy-theme-manager"
+version = "0.1.0"
+description = "Qt theme manager, catalog, and selector dialog (qtpy)"
+readme = "README.md"
+license = { text = "LGPL-3.0-or-later" }
+requires-python = ">=3.8"
+authors = [{ name = "oldrepublicwizard" }]
+dependencies = [
+    "qtpy",
+]
+
+[project.urls]
+Homepage = "https://github.com/oldrepublicwizard/qtpy-theme-manager"
+Repository = "https://github.com/oldrepublicwizard/qtpy-theme-manager"
+
+[tool.setuptools.packages.find]
+where = ["src"]
